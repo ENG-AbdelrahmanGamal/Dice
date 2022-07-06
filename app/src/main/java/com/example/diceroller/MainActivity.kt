@@ -33,6 +33,6 @@ class MainActivity : AppCompatActivity() {
             else ->R.drawable.dice_6
         }
         image.setImageResource(drawableResult)
-
+//test to try new commit in get
     }
 }
