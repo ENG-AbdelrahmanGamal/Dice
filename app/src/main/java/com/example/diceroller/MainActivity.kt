@@ -23,16 +23,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val randomNumber :Int=Random.nextInt(6)+1
-       val drawableResult= when(randomNumber){
-            1->R.drawable.dice_1
-            2->R.drawable.dice_2
-            3->R.drawable.dice_3
-            4->R.drawable.dice_4
-            5->R.drawable.dice_5
-            else ->R.drawable.dice_6
+        val randomNumber: Int = Random.nextInt(6) + 1
+        val drawableResult = when (randomNumber) {
+            1 -> R.drawable.dice_1
+            2 -> R.drawable.dice_2
+            3 -> R.drawable.dice_3
+            4 -> R.drawable.dice_4
+            5 -> R.drawable.dice_5
+            else -> R.drawable.dice_6
         }
         image.setImageResource(drawableResult)
-//test to try new commit in get
-    }
-}
+    }}
